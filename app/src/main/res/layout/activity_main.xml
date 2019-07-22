@@ -5,65 +5,57 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#000000"
     tools:context=".MainActivity">
 
 
-    <LinearLayout
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
-        android:layout_weight="1"
-        android:padding="10dp">
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"/>
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:textAlignment="center"
-            android:background="#D50707"
-            android:layout_weight="1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario ...."
+        android:layout_margin="10dp"/>
 
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:textAlignment="center"
-            android:background="#FFC107"
-            android:layout_weight="2"/>
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:textAlignment="center"
-            android:background="#D50707"
-            android:layout_weight="1"/>
-    </LinearLayout>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password ...."
+        android:layout_margin="10dp"
+        android:inputType="textVisiblePassword"/>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:layout_weight="1"
-        android:padding="10dp">
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:textAlignment="center"
-            android:background="#D50707"
-            android:layout_weight="1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Cancelar"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#504848"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:textAlignment="center"
-            android:background="#FFC107"
-            android:layout_weight="2"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:textAlignment="center"
-            android:background="#D50707"
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Aceptar"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#504848"
             android:layout_weight="1"/>
     </LinearLayout>
 
